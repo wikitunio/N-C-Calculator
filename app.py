@@ -11,9 +11,9 @@ This app calculates the **N/C ratio** based on the given weight percentages of:
 """)
 
 # User Inputs
-nh3 = st.number_input("Enter weight% of NH₃", min_value=0.0, format="%.4f")
-co2 = st.number_input("Enter weight% of CO₂", min_value=0.0, format="%.4f")
-urea = st.number_input("Enter weight% of Urea", min_value=0.0, format="%.4f")
+nh3 = st.number_input("Enter weight% of NH₃", format="%.4f")
+co2 = st.number_input("Enter weight% of CO₂", format="%.4f")
+urea = st.number_input("Enter weight% of Urea", format="%.4f")
 
 # Calculation
 if st.button("Calculate N/C Ratio"):
